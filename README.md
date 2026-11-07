@@ -6,6 +6,14 @@
 
 KeyDesk is a small Windows app for showing keystrokes and keeping useful time and productivity tools close by.
 
+## See KeyDesk in action
+
+<p align="center">
+  <img src="Images/KeyDesk-demo.gif" alt="KeyDesk showing recent keystrokes as a sentence is typed, beside the app dashboard" width="960">
+</p>
+
+The floating panel updates as you type. Click it to open the dashboard with the clock, timer, notes, and to-do list.
+
 ## Features
 
 ### Floating key display and overview

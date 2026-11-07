@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" data-resolution="landscape">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=960, height=540" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { width: 960px; height: 540px; overflow: hidden; background: #0e0b16; }
+      #root { position: relative; width: 960px; height: 540px; overflow: hidden; background: #0e0b16; }
+    </style>
+  </head>
+  <body>
+    <main id="root" data-composition-id="main" data-start="0" data-duration="8" data-width="960" data-height="540">
+      <div id="demo" data-composition-id="demo" data-composition-src="compositions/demo.html" data-start="0" data-duration="8" data-width="960" data-height="540" data-track-index="0" data-track-kind="graphics"></div>
+    </main>
+    <script>
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>

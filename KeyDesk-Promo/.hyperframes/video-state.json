@@ -1,0 +1,2411 @@
+{
+  "version": 1,
+  "historyId": "a6513c34-211f-40eb-944a-66df42bd607b",
+  "currentRevision": "c5dc6d45-b305-403c-b3d2-191c50f5df48",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1a68041fc901ff835682a2a8d6f63c96dbb0b9eef8fb0971e97a79eaf69303d3",
+      "content": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\1a\\1a68041fc901ff835682a2a8d6f63c96dbb0b9eef8fb0971e97a79eaf69303d3"
+    },
+    "CLAUDE.md": {
+      "hash": "1a68041fc901ff835682a2a8d6f63c96dbb0b9eef8fb0971e97a79eaf69303d3",
+      "content": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\1a\\1a68041fc901ff835682a2a8d6f63c96dbb0b9eef8fb0971e97a79eaf69303d3"
+    },
+    "assets/keydesk-logo-crop.png": {
+      "hash": "35ac1418712a8e67c48993f8311341fe4fad0322da0667cec6fda268e6b5b7ec",
+      "content": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\35\\35ac1418712a8e67c48993f8311341fe4fad0322da0667cec6fda268e6b5b7ec"
+    },
+    "assets/keydesk-overview.png": {
+      "hash": "94c41ffb7f6a83c8126dea58844bafcdb65ccf4e3181fdab6f66f87759fd1fb3",
+      "content": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\94\\94c41ffb7f6a83c8126dea58844bafcdb65ccf4e3181fdab6f66f87759fd1fb3"
+    },
+    "hyperframes.json": {
+      "hash": "35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7",
+      "content": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\35\\35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7"
+    },
+    "index.html": {
+      "hash": "2c540e37e0ae5301d645f28d02eb32d0f1e0e0f03473f7977d0aa9811d5420a9",
+      "content": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\2c\\2c540e37e0ae5301d645f28d02eb32d0f1e0e0f03473f7977d0aa9811d5420a9"
+    },
+    "meta.json": {
+      "hash": "9c3bce7e1d4fb7be3e96c0a00758adaa64652c5503f85fbf7ec978c43cf6761c",
+      "content": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\9c\\9c3bce7e1d4fb7be3e96c0a00758adaa64652c5503f85fbf7ec978c43cf6761c"
+    },
+    "package.json": {
+      "hash": "311d3099ca544e3aa7203e2341e1f0e12175d4b84f9b9950fac9405981ea4bc3",
+      "content": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\31\\311d3099ca544e3aa7203e2341e1f0e12175d4b84f9b9950fac9405981ea4bc3"
+    },
+    "assets/keydesk-logo.png": {
+      "hash": "349826303ea6d7a6342204704e3814a2c3293bccc634d18ea20d448c831acd3f",
+      "content": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\34\\349826303ea6d7a6342204704e3814a2c3293bccc634d18ea20d448c831acd3f"
+    },
+    "compositions/demo.html": {
+      "hash": "2d6d102d4e249cc475d9e427da3359f6e1043d8af485db87bf7ade463d617269",
+      "content": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\2d\\2d6d102d4e249cc475d9e427da3359f6e1043d8af485db87bf7ade463d617269"
+    },
+    "make_gif.py": {
+      "hash": "8ee8eeeb31714c5fb62241e204a4fed4180ae4767fd88582d8fa87b982c1a430",
+      "content": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\8e\\8ee8eeeb31714c5fb62241e204a4fed4180ae4767fd88582d8fa87b982c1a430"
+    }
+  },
+  "revisions": {
+    "cc5058da-1a22-4f35-995b-f62236fc912d": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794052104960,
+      "endedAt": 1794052104975,
+      "files": {
+        "compositions/demo.html": {
+          "before": null,
+          "after": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\36\\36e6e6bdc14552d5eabc68dfb0b6ba296d464eb0e2d620e4bc4581e2ad99f953"
+        },
+        "index.html": {
+          "before": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\46\\467b47dd8b662e86e3008df4d34f8bb3bd409a1f6941d1b0bcb2afd33c5af7c3",
+          "after": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\2c\\2c540e37e0ae5301d645f28d02eb32d0f1e0e0f03473f7977d0aa9811d5420a9"
+        }
+      }
+    },
+    "3ed669ad-59e6-41aa-8236-575ab33f4d6f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794052233010,
+      "endedAt": 1794052233014,
+      "files": {
+        "compositions/demo.html": {
+          "before": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\36\\36e6e6bdc14552d5eabc68dfb0b6ba296d464eb0e2d620e4bc4581e2ad99f953",
+          "after": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\2d\\2d6d102d4e249cc475d9e427da3359f6e1043d8af485db87bf7ade463d617269"
+        }
+      }
+    },
+    "c5dc6d45-b305-403c-b3d2-191c50f5df48": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794052888269,
+      "endedAt": 1794052890277,
+      "files": {
+        "make_gif.py": {
+          "before": null,
+          "after": "C:\\Users\\Shakib\\.cache\\hyperframes\\history\\a6513c34-211f-40eb-944a-66df42bd607b\\blobs\\8e\\8ee8eeeb31714c5fb62241e204a4fed4180ae4767fd88582d8fa87b982c1a430"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+      "id": "9fa009cb-7f09-4c7e-b9be-75b2eae0b4b0"
+    },
+    "revisions": {
+      "cc5058da-1a22-4f35-995b-f62236fc912d": [
+        {
+          "id": "0bad6e26-38d0-4fc2-8939-9ee9ba199dcb",
+          "scope": "project",
+          "report": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\checks\\0bad6e26-38d0-4fc2-8939-9ee9ba199dcb.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1794052112906,
+          "contentHash": "e1941950095b5934ca30b55fee2c995407964785bfccb9181f2718bee99671b2",
+          "revision": "cc5058da-1a22-4f35-995b-f62236fc912d",
+          "inputFingerprint": "37d26a297e66d308aa38a24e3c7dfaf5c606f8313c69b4721547803dcbcf48d9",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "3ed669ad-59e6-41aa-8236-575ab33f4d6f": [
+        {
+          "id": "9fa009cb-7f09-4c7e-b9be-75b2eae0b4b0",
+          "scope": "project",
+          "report": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\checks\\9fa009cb-7f09-4c7e-b9be-75b2eae0b4b0.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1794052241022,
+          "contentHash": "e1941950095b5934ca30b55fee2c995407964785bfccb9181f2718bee99671b2",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "400ecca6-aeab-4333-a152-244cb593d710",
+        "scope": "project",
+        "report": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\checks\\400ecca6-aeab-4333-a152-244cb593d710.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1794051927444,
+        "contentHash": "6cbbb8703ee7fffe77df10a4ebee49e19011ba75cef5994d8cd46faaef635c46",
+        "revision": null,
+        "inputFingerprint": "64878ebfca1c51c2410d4c8071fd68d818802b5edfe0c5ad0adbff0a68314d0f",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+      "id": "106e506f-c5b3-41ef-9c24-9e039378402a-99"
+    },
+    "revisions": {
+      "cc5058da-1a22-4f35-995b-f62236fc912d": [
+        {
+          "scope": "full",
+          "id": "72d04425-9f37-4d21-968b-a718de8abd69-0",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\snapshots\\6447a994-4219-4abd-a774-917201ed433a\\frame-00-at-0s.png",
+          "time": 0,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052148471,
+          "contentHash": "91e183c0809c777ac23d046ef91de58830b21cd5461b3a51d1e516bbb94bc874",
+          "revision": "cc5058da-1a22-4f35-995b-f62236fc912d",
+          "inputFingerprint": "37d26a297e66d308aa38a24e3c7dfaf5c606f8313c69b4721547803dcbcf48d9",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "72d04425-9f37-4d21-968b-a718de8abd69-1",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\snapshots\\6447a994-4219-4abd-a774-917201ed433a\\frame-01-at-1.1s.png",
+          "time": 1.1,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052148471,
+          "contentHash": "db9235920e817b2abcc5b383ec51d1949dd042a8464c7c0c2454680748afe20f",
+          "revision": "cc5058da-1a22-4f35-995b-f62236fc912d",
+          "inputFingerprint": "37d26a297e66d308aa38a24e3c7dfaf5c606f8313c69b4721547803dcbcf48d9",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "72d04425-9f37-4d21-968b-a718de8abd69-2",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\snapshots\\6447a994-4219-4abd-a774-917201ed433a\\frame-02-at-3.3s.png",
+          "time": 3.3,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052148472,
+          "contentHash": "7ad4bfe5baccba59e068cac196fb45419a225546d40092ab2972d64af1c28d41",
+          "revision": "cc5058da-1a22-4f35-995b-f62236fc912d",
+          "inputFingerprint": "37d26a297e66d308aa38a24e3c7dfaf5c606f8313c69b4721547803dcbcf48d9",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "72d04425-9f37-4d21-968b-a718de8abd69-3",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\snapshots\\6447a994-4219-4abd-a774-917201ed433a\\frame-03-at-5.5s.png",
+          "time": 5.5,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052148472,
+          "contentHash": "48c5a51179acd923901921c949a8bf28a67f902346898a4539d8ea6d6b8385f4",
+          "revision": "cc5058da-1a22-4f35-995b-f62236fc912d",
+          "inputFingerprint": "37d26a297e66d308aa38a24e3c7dfaf5c606f8313c69b4721547803dcbcf48d9",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "72d04425-9f37-4d21-968b-a718de8abd69-4",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\snapshots\\6447a994-4219-4abd-a774-917201ed433a\\frame-04-at-7.7s.png",
+          "time": 7.7,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052148472,
+          "contentHash": "8af7b8389e3ab57b547a90b8ac86f31e02242ca16241a86d4c6b56fa19dae082",
+          "revision": "cc5058da-1a22-4f35-995b-f62236fc912d",
+          "inputFingerprint": "37d26a297e66d308aa38a24e3c7dfaf5c606f8313c69b4721547803dcbcf48d9",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "3ed669ad-59e6-41aa-8236-575ab33f4d6f": [
+        {
+          "scope": "full",
+          "id": "bbb1abac-8176-40fe-a6a4-b73df1789a06-0",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\snapshots\\1e704096-2c13-418c-a241-c23d50e6ba58\\frame-00-at-0s.png",
+          "time": 0,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052266835,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "bbb1abac-8176-40fe-a6a4-b73df1789a06-1",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\snapshots\\1e704096-2c13-418c-a241-c23d50e6ba58\\frame-01-at-1.1s.png",
+          "time": 1.1,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052266836,
+          "contentHash": "031fdc929c6943485e05554228acb20bceed545a9cc2b0a79b53ac16eb191d1a",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "bbb1abac-8176-40fe-a6a4-b73df1789a06-2",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\snapshots\\1e704096-2c13-418c-a241-c23d50e6ba58\\frame-02-at-3.3s.png",
+          "time": 3.3,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052266836,
+          "contentHash": "0b61c62a5bdc6b7dece4bb89beff226243d77c2d14a2aa91152b16f53ad20ec4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "bbb1abac-8176-40fe-a6a4-b73df1789a06-3",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\snapshots\\1e704096-2c13-418c-a241-c23d50e6ba58\\frame-03-at-5.5s.png",
+          "time": 5.5,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052266837,
+          "contentHash": "c64a7a5767782e540acfb2b8769fc44c164b40d51b78c3422c1dc2a401ebae26",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "bbb1abac-8176-40fe-a6a4-b73df1789a06-4",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\.hyperframes\\artifacts\\snapshots\\1e704096-2c13-418c-a241-c23d50e6ba58\\frame-04-at-7.7s.png",
+          "time": 7.7,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052266837,
+          "contentHash": "f570b54390192541f3e69f38483fcbc865093740abcef0f19ea0b8ee05044160",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-0",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-00-at-0s.png",
+          "time": 0,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816524,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-1",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-01-at-0.081s.png",
+          "time": 0.0807979797979798,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816525,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-2",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-02-at-0.162s.png",
+          "time": 0.1615959595959596,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816526,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-3",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-03-at-0.242s.png",
+          "time": 0.24239393939393938,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816527,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-4",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-04-at-0.323s.png",
+          "time": 0.3231919191919192,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816528,
+          "contentHash": "9e0fc00e62b99455ca4b675b39d74b5f2312c4cd36b1edd9e7e06fbf3738e1d7",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-5",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-05-at-0.404s.png",
+          "time": 0.40398989898989895,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816529,
+          "contentHash": "4f447c0078a023ce5b6d97009e4544ccfb9750cf8db387bc0a61e0b3953fccb0",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-6",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-06-at-0.485s.png",
+          "time": 0.48478787878787877,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816529,
+          "contentHash": "6a71480a801c60455bdcf6b96b665e65eadb8eb3175da58c3d725912c83e3c5d",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-7",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-07-at-0.566s.png",
+          "time": 0.5655858585858585,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816530,
+          "contentHash": "c9c4da9d80f641bf42bf0e820e663b631fad5232ee3102707c9997a46c9cf6c7",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-8",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-08-at-0.646s.png",
+          "time": 0.6463838383838384,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816531,
+          "contentHash": "c9c4da9d80f641bf42bf0e820e663b631fad5232ee3102707c9997a46c9cf6c7",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-9",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-09-at-0.727s.png",
+          "time": 0.7271818181818182,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816532,
+          "contentHash": "6e6a04a3f2f6118f520ed323752e05a692adfc2dc66d35e2ea83f2ddcd10b6c7",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-10",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-10-at-0.808s.png",
+          "time": 0.8079797979797979,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816534,
+          "contentHash": "751e8fe39f6fcfb4f43a8110fa1f62cae376eca15b2ab9bc629c07df5218c753",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-11",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-11-at-0.889s.png",
+          "time": 0.8887777777777777,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816535,
+          "contentHash": "5a170516b581dc0cd0ec5ab6b37bf8a05e0e8cc9758adc95a80c94754a1617cf",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-12",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-12-at-0.97s.png",
+          "time": 0.9695757575757575,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816537,
+          "contentHash": "7dbaf92449f25ebc19b50b804ad1fc7be5a178b4723c25be1f827e478d2966ef",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-13",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-13-at-1.05s.png",
+          "time": 1.0503737373737374,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816538,
+          "contentHash": "46e25b8675503ae115d1c8f9a5bb06081e7d409151ae6273e8122cd7ad61834c",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-14",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-14-at-1.131s.png",
+          "time": 1.131171717171717,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816539,
+          "contentHash": "031fdc929c6943485e05554228acb20bceed545a9cc2b0a79b53ac16eb191d1a",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-15",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-15-at-1.212s.png",
+          "time": 1.211969696969697,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816540,
+          "contentHash": "d9e15305d14ef34a5a8e4fea81d0c6e8cf27272aaed8c853179a6dd65049a135",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-16",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-16-at-1.293s.png",
+          "time": 1.2927676767676768,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816542,
+          "contentHash": "4f39cfe77db78b884db7b9da4d56fbf78450abd84ca02c984958644aea64e856",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-17",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-17-at-1.374s.png",
+          "time": 1.3735656565656567,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816543,
+          "contentHash": "8187464d937b4a915b1642dd19a67bfd996036f5776f18aca26ec10c3f3c1945",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-18",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-18-at-1.454s.png",
+          "time": 1.4543636363636363,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816545,
+          "contentHash": "3b578e07617ac44d30d5bcc4462bb30b32561f5684b2ffc688303d998736d667",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-19",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-19-at-1.535s.png",
+          "time": 1.5351616161616162,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816546,
+          "contentHash": "669b3d35a0bf8d0d49e3c06803dddca8f3f833d15e3c8634edfd664124b1aa3d",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-20",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-20-at-1.616s.png",
+          "time": 1.6159595959595958,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816547,
+          "contentHash": "c1441c50cc8540e433e9ce68f4911b792890b8de6bbd111bc937df8fa2db4391",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-21",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-21-at-1.697s.png",
+          "time": 1.6967575757575757,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816549,
+          "contentHash": "15b6e4a5cd4188c6aa52d04945d30220769c66e556d6b2f04d7f62c2e86b04b1",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-22",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-22-at-1.778s.png",
+          "time": 1.7775555555555553,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816550,
+          "contentHash": "fb69b1da3f24ca5a4444f189c3dee3c60e218dcfa801a86e7eaad720eeb7fff8",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-23",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-23-at-1.858s.png",
+          "time": 1.8583535353535354,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816552,
+          "contentHash": "fb69b1da3f24ca5a4444f189c3dee3c60e218dcfa801a86e7eaad720eeb7fff8",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-24",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-24-at-1.939s.png",
+          "time": 1.939151515151515,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816554,
+          "contentHash": "fb69b1da3f24ca5a4444f189c3dee3c60e218dcfa801a86e7eaad720eeb7fff8",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-25",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-25-at-2.02s.png",
+          "time": 2.0199494949494947,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816556,
+          "contentHash": "1180ff5ffc47c774be27653ef248e6bfede14691b6921cde7003f0d6040d87ab",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-26",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-26-at-2.101s.png",
+          "time": 2.100747474747475,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816558,
+          "contentHash": "d884a515a89b2b932375fbf6d2e60e72a954dfb0db744e5c106e85e94c325cd3",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-27",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-27-at-2.182s.png",
+          "time": 2.1815454545454545,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816560,
+          "contentHash": "21485620d33aab8304923e84cfa2f915f2a5ce17edbbf2a21751326f376f2818",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-28",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-28-at-2.262s.png",
+          "time": 2.262343434343434,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816562,
+          "contentHash": "20feab5c2422e9444620e6b9c00153f31885f4fbf53ea6e40390baa80257c7bb",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-29",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-29-at-2.343s.png",
+          "time": 2.343141414141414,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816564,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-30",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-30-at-2.424s.png",
+          "time": 2.423939393939394,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816566,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-31",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-31-at-2.505s.png",
+          "time": 2.5047373737373735,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816568,
+          "contentHash": "fc3ae41e6d6bf6b6984e579c45a693b5d06f5cf42b8b995d7fd8329476f2019d",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-32",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-32-at-2.586s.png",
+          "time": 2.5855353535353536,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816570,
+          "contentHash": "08b97499cb6c73ed14d0b1c5ef8ec9cf10a230b87a421b07e940e0fecf6452d6",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-33",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-33-at-2.666s.png",
+          "time": 2.666333333333333,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816572,
+          "contentHash": "fc1f5281d82b872ae4e61ab5dc2ea41a06aafdc794cce37cf981ddb7d0f0cb61",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-34",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-34-at-2.747s.png",
+          "time": 2.7471313131313133,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816575,
+          "contentHash": "f4177dbae3fdde8ada5899dd14e564201fe19b63dc2667dd9087cf846a794521",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-35",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-35-at-2.828s.png",
+          "time": 2.8279292929292925,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816578,
+          "contentHash": "229ad7004f69fb44ca49ddc659412739c116e5f44f4c0150b799de0ea427ca70",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-36",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-36-at-2.909s.png",
+          "time": 2.9087272727272726,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816580,
+          "contentHash": "8a81981a90cc5a1f03634e2faf81b8e9cebdb34e47fdcb1cb0629260d8a61204",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-37",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-37-at-2.99s.png",
+          "time": 2.9895252525252523,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816583,
+          "contentHash": "4ffc5e059682c47647cbda6dde84681bcc30208395565d8f5a8254e9f6ada9b4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-38",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-38-at-3.07s.png",
+          "time": 3.0703232323232323,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816585,
+          "contentHash": "6ea76fcd070ee0eb89cbc440e41ea83824c3e73b12776511c6bfbb1742108b6f",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-39",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-39-at-3.151s.png",
+          "time": 3.1511212121212124,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816588,
+          "contentHash": "40cc774fb7da21527456e0c1e8fe30ef2f711c6761286dadc0cb2ecd05c80631",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-40",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-40-at-3.232s.png",
+          "time": 3.2319191919191916,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816591,
+          "contentHash": "ffd607b263c37df25b270bdf9de7f7a830f6a91784bcc6484fcabb29d42a8a2c",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-41",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-41-at-3.313s.png",
+          "time": 3.3127171717171717,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816593,
+          "contentHash": "0b61c62a5bdc6b7dece4bb89beff226243d77c2d14a2aa91152b16f53ad20ec4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-42",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-42-at-3.394s.png",
+          "time": 3.3935151515151514,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816596,
+          "contentHash": "ea627ca15b2e7e79fc621aed387fd38bcf3ceff4d7af30ac5bee9c84289b1ce1",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-43",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-43-at-3.474s.png",
+          "time": 3.4743131313131315,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816599,
+          "contentHash": "f990ee9bec26b749afcaa51f8d32f2afc65723af2787118a2fa271a718e03de7",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-44",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-44-at-3.555s.png",
+          "time": 3.5551111111111107,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816602,
+          "contentHash": "3ae126b173fe4c3570f99604ab636ac2203d3528087b807a2e1b8f8614628ddd",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-45",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-45-at-3.636s.png",
+          "time": 3.6359090909090908,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816605,
+          "contentHash": "748bb31b4054ffb089e1dab5398676502463b6907b9e2558dc27e1729eb41a5b",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-46",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-46-at-3.717s.png",
+          "time": 3.716707070707071,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816608,
+          "contentHash": "eb06063c7b9bfa899a08c541cadafda0278d01f136d4b01fe25ce4b1b5eb8494",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-47",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-47-at-3.798s.png",
+          "time": 3.79750505050505,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816611,
+          "contentHash": "3adff4e9d66f617b7885538bad49a00de1111088b3bcc7da5aeb125d6d61e1ad",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-48",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-48-at-3.878s.png",
+          "time": 3.87830303030303,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816614,
+          "contentHash": "38829f0eebc4abceeaf8e1eeacb8360cc544061b0b8c503342c4539a796ebfd7",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-49",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-49-at-3.959s.png",
+          "time": 3.95910101010101,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816617,
+          "contentHash": "8630fbc26cead44aa6f04ef1020801dedc958692f33fa6533363b3dce17a748c",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-50",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-50-at-4.04s.png",
+          "time": 4.039898989898989,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816621,
+          "contentHash": "23fb040103add5056d4123d3781055268080b6f719878d96f5fd0dedbf4ab77b",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-51",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-51-at-4.121s.png",
+          "time": 4.1206969696969695,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816624,
+          "contentHash": "23fb040103add5056d4123d3781055268080b6f719878d96f5fd0dedbf4ab77b",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-52",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-52-at-4.201s.png",
+          "time": 4.20149494949495,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816628,
+          "contentHash": "d1a7d41242b70d6735e39567ce5fc121a7128d5d74b6f34d525277de2d629997",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-53",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-53-at-4.282s.png",
+          "time": 4.28229292929293,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816631,
+          "contentHash": "63cca197b2354f9c72e038244877269400f28f95639f147f980b34c08f67261d",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-54",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-54-at-4.363s.png",
+          "time": 4.363090909090909,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816636,
+          "contentHash": "4e46cd8519508f9816206b0196297f2b1c4002a9f0e2f1e507b3e75855a29542",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-55",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-55-at-4.444s.png",
+          "time": 4.443888888888889,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816640,
+          "contentHash": "a6cf4be4b7be674942464029ecc76831412f05fe2684d1bf8738d26b0a999508",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-56",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-56-at-4.525s.png",
+          "time": 4.524686868686868,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816644,
+          "contentHash": "f570b54390192541f3e69f38483fcbc865093740abcef0f19ea0b8ee05044160",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-57",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-57-at-4.605s.png",
+          "time": 4.605484848484848,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816647,
+          "contentHash": "f570b54390192541f3e69f38483fcbc865093740abcef0f19ea0b8ee05044160",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-58",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-58-at-4.686s.png",
+          "time": 4.686282828282828,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816651,
+          "contentHash": "fc3ae41e6d6bf6b6984e579c45a693b5d06f5cf42b8b995d7fd8329476f2019d",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-59",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-59-at-4.767s.png",
+          "time": 4.767080808080808,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816655,
+          "contentHash": "a70722bbc5ffcf6bf0c7351c5c2449d909deb09e6e383cedb2f7956dca2d06fe",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-60",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-60-at-4.848s.png",
+          "time": 4.847878787878788,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816659,
+          "contentHash": "719e96640c5f817fca07ab7a02a0fd90241614da9dcb5cbbd1fd4fae4517c6b2",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-61",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-61-at-4.929s.png",
+          "time": 4.928676767676767,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816663,
+          "contentHash": "719e96640c5f817fca07ab7a02a0fd90241614da9dcb5cbbd1fd4fae4517c6b2",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-62",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-62-at-5.009s.png",
+          "time": 5.009474747474747,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816668,
+          "contentHash": "1b9f3efc7379b3383331260c6ac799bd285ab1ea6ed0cd575a8a62e2f1ee6f03",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-63",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-63-at-5.09s.png",
+          "time": 5.090272727272727,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816672,
+          "contentHash": "9c7f4b9c3cf2154c385fbeba3ad7c1c7e81effe6459d3c1b446e921aef9a05a9",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-64",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-64-at-5.171s.png",
+          "time": 5.171070707070707,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816676,
+          "contentHash": "e094ed663b1679c8308a1028311adffc529b9f0a4411a78dcd18ded8df7bb1b8",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-65",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-65-at-5.252s.png",
+          "time": 5.251868686868686,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816680,
+          "contentHash": "9d70c41dca26d483a6ad2588761aab0c2c3b8770872bcc89c8f2b19f01f5b31f",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-66",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-66-at-5.333s.png",
+          "time": 5.332666666666666,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816684,
+          "contentHash": "9cf3a6139a86047e819cf437b03d0258d46335dcbd2bea36bceafdcaa77b1c5e",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-67",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-67-at-5.413s.png",
+          "time": 5.4134646464646465,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816689,
+          "contentHash": "df1c57550db68249bb5b4ea53373e958ea5f65f9d3844529984ab6657b25a202",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-68",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-68-at-5.494s.png",
+          "time": 5.494262626262627,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816693,
+          "contentHash": "c64a7a5767782e540acfb2b8769fc44c164b40d51b78c3422c1dc2a401ebae26",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-69",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-69-at-5.575s.png",
+          "time": 5.575060606060605,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816697,
+          "contentHash": "ca322adb258b1a983ce8593107e2fbbedccd6940e9620f74e7e1922b1a7cda8d",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-70",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-70-at-5.656s.png",
+          "time": 5.655858585858585,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816701,
+          "contentHash": "53e4bda52217dec4dde97536c382035ad11bd9a82286d3634a93e7f1b0cfcb0e",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-71",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-71-at-5.737s.png",
+          "time": 5.736656565656565,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816706,
+          "contentHash": "bc646d683fb8eb58a12ce5c748a04b33bcfd539c810921e1aa5a31e3205680bd",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-72",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-72-at-5.817s.png",
+          "time": 5.817454545454545,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816710,
+          "contentHash": "da723a37c581caa7ba633600266897f26d27602f3fdeaf96675d09f25e79d6be",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-73",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-73-at-5.898s.png",
+          "time": 5.898252525252525,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816715,
+          "contentHash": "f22d6f9f429277ccdc8f593b02ee6c3d8585664e17817a5a8520bf02eee1b6b7",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-74",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-74-at-5.979s.png",
+          "time": 5.9790505050505045,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816719,
+          "contentHash": "f22d6f9f429277ccdc8f593b02ee6c3d8585664e17817a5a8520bf02eee1b6b7",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-75",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-75-at-6.06s.png",
+          "time": 6.059848484848485,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816724,
+          "contentHash": "7f743d017b91a9671e7cb326f68f2ab32fa0320cb3ef19891f1a8fb04531ecc1",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-76",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-76-at-6.141s.png",
+          "time": 6.140646464646465,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816728,
+          "contentHash": "5fcd516f4b8ee4c7feddc85fb22916a72163fcd0dbb29c7718f5fa7ce99d14e9",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-77",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-77-at-6.221s.png",
+          "time": 6.221444444444445,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816733,
+          "contentHash": "986e2bf88a37e1687b9cc376ed3a8e3c66f6f9733866678237a881efaa3b7038",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-78",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-78-at-6.302s.png",
+          "time": 6.302242424242425,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816737,
+          "contentHash": "9274ea9fe1f867f4aac0d250ab3d43cb740547ebd3b0514c0d2ffe45f2bbbb45",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-79",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-79-at-6.383s.png",
+          "time": 6.383040404040403,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816742,
+          "contentHash": "491838fa27bcbd0f5920b7113f2aaf49d2128219663f1b92cbb15bbb1bc72a95",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-80",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-80-at-6.464s.png",
+          "time": 6.463838383838383,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816747,
+          "contentHash": "491838fa27bcbd0f5920b7113f2aaf49d2128219663f1b92cbb15bbb1bc72a95",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-81",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-81-at-6.545s.png",
+          "time": 6.544636363636363,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816751,
+          "contentHash": "e8b9148f437caa81c25083582ee67bda90c2c323a1e65fc93b27ce60838a6368",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-82",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-82-at-6.625s.png",
+          "time": 6.6254343434343435,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816757,
+          "contentHash": "bfc9dafa108f177c54866b6a9efe954fbabd94b07480c44c5c62aa96ebbb370d",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-83",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-83-at-6.706s.png",
+          "time": 6.706232323232323,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816762,
+          "contentHash": "62b56e10f7b84529ad6ff364cb5666acd96b506d0a132051e139fa5238840b78",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-84",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-84-at-6.787s.png",
+          "time": 6.787030303030303,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816767,
+          "contentHash": "8f18095aa65cf0c8a220800352007c033d08f79c5bc3984b5bfa253de0f95ec1",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-85",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-85-at-6.868s.png",
+          "time": 6.867828282828283,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816772,
+          "contentHash": "863168dd67ff77043dd01f4dba695af6d8bea5074be6b3652932e93f0130778f",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-86",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-86-at-6.949s.png",
+          "time": 6.948626262626263,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816777,
+          "contentHash": "f570b54390192541f3e69f38483fcbc865093740abcef0f19ea0b8ee05044160",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-87",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-87-at-7.029s.png",
+          "time": 7.029424242424242,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816782,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-88",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-88-at-7.11s.png",
+          "time": 7.110222222222221,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816787,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-89",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-89-at-7.191s.png",
+          "time": 7.191020202020201,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816793,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-90",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-90-at-7.272s.png",
+          "time": 7.2718181818181815,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816798,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-91",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-91-at-7.353s.png",
+          "time": 7.352616161616162,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816803,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-92",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-92-at-7.433s.png",
+          "time": 7.433414141414142,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816809,
+          "contentHash": "f3f251cbbb3f9b54e576765d7559191b77552e2ff3df7ecb50c3c251839f46f4",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-93",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-93-at-7.514s.png",
+          "time": 7.514212121212121,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816815,
+          "contentHash": "f570b54390192541f3e69f38483fcbc865093740abcef0f19ea0b8ee05044160",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-94",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-94-at-7.595s.png",
+          "time": 7.5950101010101,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816820,
+          "contentHash": "f570b54390192541f3e69f38483fcbc865093740abcef0f19ea0b8ee05044160",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-95",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-95-at-7.676s.png",
+          "time": 7.67580808080808,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816826,
+          "contentHash": "f570b54390192541f3e69f38483fcbc865093740abcef0f19ea0b8ee05044160",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-96",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-96-at-7.757s.png",
+          "time": 7.75660606060606,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816831,
+          "contentHash": "f570b54390192541f3e69f38483fcbc865093740abcef0f19ea0b8ee05044160",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-97",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-97-at-7.837s.png",
+          "time": 7.83740404040404,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816837,
+          "contentHash": "f570b54390192541f3e69f38483fcbc865093740abcef0f19ea0b8ee05044160",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-98",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-98-at-7.918s.png",
+          "time": 7.91820202020202,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816843,
+          "contentHash": "f570b54390192541f3e69f38483fcbc865093740abcef0f19ea0b8ee05044160",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "106e506f-c5b3-41ef-9c24-9e039378402a-99",
+          "image": "D:\\KeyDesk\\KeyDesk-Promo\\renders\\keydesk-gif-frames\\frame-99-at-7.999s.png",
+          "time": 7.999,
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794052816849,
+          "contentHash": "f570b54390192541f3e69f38483fcbc865093740abcef0f19ea0b8ee05044160",
+          "revision": "3ed669ad-59e6-41aa-8236-575ab33f4d6f",
+          "inputFingerprint": "9e9a13924588ccb43826ba4cd4362c86469cf412a72a773aa4ba00b82236c149",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  }
+}

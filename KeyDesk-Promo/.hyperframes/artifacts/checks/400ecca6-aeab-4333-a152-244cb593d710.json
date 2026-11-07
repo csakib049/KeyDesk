@@ -1,0 +1,370 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 10,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"brand\" data-start=\"0\" data-track-index=\"0\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\KeyDesk\\KeyDesk-Promo\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<h1 class=\"headline\" data-start=\"0\" data-track-index=\"1\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\KeyDesk\\KeyDesk-Promo\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<p class=\"subline\" data-start=\"0\" data-track-index=\"1\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\KeyDesk\\KeyDesk-Promo\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<section class=\"sample-card\" data-start=\"0\" data-track-index=\"2\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\KeyDesk\\KeyDesk-Promo\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<section class=\"key-panel\" data-start=\"0\" data-track-index=\"3\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\KeyDesk\\KeyDesk-Promo\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"screen-heading\" data-start=\"0\" data-track-index=\"4\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\KeyDesk\\KeyDesk-Promo\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"screen-window\" data-start=\"0\" data-track-index=\"4\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\KeyDesk\\KeyDesk-Promo\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<p class=\"screen-caption\" data-start=\"0\" data-track-index=\"4\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\KeyDesk\\KeyDesk-Promo\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div> is a timeline element that contains nested <img>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\KeyDesk\\KeyDesk-Promo\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\KeyDesk\\KeyDesk-Promo\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 8,
+    "samples": [
+      0.444,
+      1.333,
+      2.222,
+      3.111,
+      4,
+      4.889,
+      5.778,
+      6.667,
+      7.556
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0.444,
+      2.222,
+      4,
+      5.778,
+      7.556
+    ],
+    "checked": 78,
+    "passed": 78
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 14 px (2.6% of the 540 px short side, what a phone can read) and 9 text elements stay under it for 0.5 s or more, the smallest \"Typing sample\" at 10 px: set reading text to at least 14 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Typing sample",
+        "selector": "div.sample-label",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 66,
+          "y": 319,
+          "width": 100.45,
+          "height": 12
+        },
+        "time": 0,
+        "times": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontPx": 10,
+        "floorPx": 14,
+        "seconds": 8,
+        "elements": [
+          {
+            "selector": "div.sample-label",
+            "text": "Typing sample",
+            "fontPx": 10,
+            "time": 0,
+            "seconds": 8
+          },
+          {
+            "selector": "div.panel-label",
+            "text": "RECENT KEYS",
+            "fontPx": 10,
+            "time": 0,
+            "seconds": 8
+          },
+          {
+            "selector": "div.panel-live",
+            "text": "LIVE",
+            "fontPx": 10,
+            "time": 0,
+            "seconds": 8
+          },
+          {
+            "selector": "div.panel-time",
+            "text": "CURRENT TIME",
+            "fontPx": 11,
+            "time": 0,
+            "seconds": 8
+          },
+          {
+            "selector": "div.panel-time > strong:nth-of-type(1)",
+            "text": "4:54:57 PM",
+            "fontPx": 11,
+            "time": 0,
+            "seconds": 8
+          },
+          {
+            "selector": "#root > div:nth-of-type(3)",
+            "text": "THE KEYDESK DASHBOARD",
+            "fontPx": 11,
+            "time": 0,
+            "seconds": 8
+          },
+          {
+            "selector": "div.brand-tag",
+            "text": "Keyboard · Timer · Productivity",
+            "fontPx": 13,
+            "time": 0,
+            "seconds": 8
+          },
+          {
+            "selector": "#root > p:nth-of-type(2)",
+            "text": "Notes · To-do list · Color themes",
+            "fontPx": 13,
+            "time": 0,
+            "seconds": 8
+          },
+          {
+            "selector": "p[data-start=\"0\"] > strong:nth-of-type(1)",
+            "text": "Clock · Alarm · Timer",
+            "fontPx": 13,
+            "time": 0,
+            "seconds": 8
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 64
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}
