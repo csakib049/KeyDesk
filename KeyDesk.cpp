@@ -67,6 +67,27 @@ static std::wstring dataDir(){return appDir()+L"\\KeyDeskData";}
 static std::wstring notesDir(){return dataDir()+L"\\Notes";}
 static std::wstring todosDir(){return dataDir()+L"\\ToDo";}
 static std::wstring todoFile(){return todosDir()+L"\\todos.txt";}
+static std::wstring settingsFile(){return dataDir()+L"\\settings.ini";}
+
+static void saveSettings(){
+    std::error_code ec;fs::create_directories(fs::path(dataDir()),ec);
+    std::wofstream f{fs::path(settingsFile()),std::ios::trunc};if(!f)return;
+    f<<L"[Appearance]\n"<<L"dark="<<(g_dark?1:0)<<L"\n"<<L"theme="<<g_themeIndex<<L"\n"<<L"keystrokes="<<(g_keysVisible?1:0)<<L"\n";
+}
+static void loadSettings(){
+    std::wifstream f{fs::path(settingsFile())};std::wstring line,section;
+    while(std::getline(f,line)){
+        if(line.empty())continue;
+        if(line.front()==L'['&&line.back()==L']'){section=line.substr(1,line.size()-2);continue;}
+        auto eq=line.find(L'=');if(eq==std::wstring::npos)continue;
+        std::wstring key=line.substr(0,eq),value=line.substr(eq+1);
+        if(section==L"Appearance"){
+            if(key==L"dark")g_dark=(value==L"1");
+            else if(key==L"theme"){int n=_wtoi(value.c_str());if(n>=0&&n<(int)(sizeof(g_themes)/sizeof(g_themes[0])))g_themeIndex=n;}
+            else if(key==L"keystrokes")g_keysVisible=(value==L"1");
+        }
+    }
+}
 
 static std::wstring readUtf8(const std::wstring& path){
     std::ifstream f{fs::path(path),std::ios::binary}; if(!f)return L"";
@@ -183,7 +204,7 @@ static LRESULT CALLBACK overlayProc(HWND h,UINT m,WPARAM w,LPARAM l){
     case WM_ERASEBKGND:return 1;
     }return DefWindowProcW(h,m,w,l);
 }
-static void makeOverlay(){WNDCLASSW c{};c.lpfnWndProc=overlayProc;c.hInstance=g_instance;c.lpszClassName=L"KeyDeskOverlay";c.hCursor=LoadCursor(nullptr,IDC_HAND);c.hbrBackground=nullptr;RegisterClassW(&c);restoreOverlayPosition();g_overlay=CreateWindowExW(WS_EX_TOPMOST|WS_EX_TOOLWINDOW|WS_EX_LAYERED,c.lpszClassName,L"KeyDesk",WS_POPUP,g_overlayX,g_overlayY,190,70,nullptr,nullptr,g_instance,nullptr);if(g_overlay){HRGN pill=CreateRoundRectRgn(0,0,190,70,70,70);SetWindowRgn(g_overlay,pill,TRUE);SetLayeredWindowAttributes(g_overlay,0,232,LWA_ALPHA);ShowWindow(g_overlay,SW_SHOWNOACTIVATE);}}
+static void makeOverlay(){WNDCLASSW c{};c.lpfnWndProc=overlayProc;c.hInstance=g_instance;c.lpszClassName=L"KeyDeskOverlay";c.hCursor=LoadCursor(nullptr,IDC_HAND);c.hbrBackground=nullptr;RegisterClassW(&c);restoreOverlayPosition();g_overlay=CreateWindowExW(WS_EX_TOPMOST|WS_EX_TOOLWINDOW|WS_EX_LAYERED,c.lpszClassName,L"KeyDesk",WS_POPUP,g_overlayX,g_overlayY,190,70,nullptr,nullptr,g_instance,nullptr);if(g_overlay){HRGN pill=CreateRoundRectRgn(0,0,190,70,70,70);SetWindowRgn(g_overlay,pill,TRUE);SetLayeredWindowAttributes(g_overlay,0,232,LWA_ALPHA);if(g_keysVisible)ShowWindow(g_overlay,SW_SHOWNOACTIVATE);}}
 
 static void setTheme(){EnumChildWindows(g_main,[](HWND c,LPARAM){InvalidateRect(c,nullptr,TRUE);return TRUE;},0);InvalidateRect(g_main,nullptr,TRUE);InvalidateRect(g_todoList,nullptr,TRUE);}
 static void addPageControls(int page){for(HWND h:g_pageControls[page])ShowWindow(h,SW_SHOW);}
@@ -251,7 +272,7 @@ static void toggleTodoCheck(){int i=(int)SendMessageW(g_todoList,LB_GETCURSEL,0,
 static LRESULT CALLBACK mainProc(HWND h,UINT m,WPARAM w,LPARAM l){
     switch(m){
     case WM_CREATE:
-        g_main=h;ensureFolders();makeControls(h);layoutDashboard(h);loadNotes();loadTodos();makeOverlay();g_keyboardHook=SetWindowsHookExW(WH_KEYBOARD_LL,keyboardProc,g_instance,0);SetTimer(h,ID_CLOCK_TICK,100,nullptr);g_timerPausedMs=300000;selectPage(0);updateClock();return 0;
+        g_main=h;ensureFolders();loadSettings();makeControls(h);SetWindowTextW(GetDlgItem(h,ID_KEY_TOGGLE),g_keysVisible?L"Keystrokes: On":L"Keystrokes: Off");SetWindowTextW(GetDlgItem(h,ID_THEME_TOGGLE),g_dark?L"Switch to light theme":L"Switch to dark theme");layoutDashboard(h);loadNotes();loadTodos();makeOverlay();g_keyboardHook=SetWindowsHookExW(WH_KEYBOARD_LL,keyboardProc,g_instance,0);SetTimer(h,ID_CLOCK_TICK,100,nullptr);g_timerPausedMs=300000;selectPage(0);updateClock();return 0;
     case WM_TIMER:if(w==ID_CLOCK_TICK)updateClock();else if(w==ID_NOTE_AUTOSAVE){KillTimer(h,ID_NOTE_AUTOSAVE);saveCurrentNote();}return 0;
     case WM_NOTIFY:{NMHDR* n=(NMHDR*)l;if(n->idFrom==ID_NOTE_TABS&&n->code==TCN_SELCHANGE){saveCurrentNote();loadNote(TabCtrl_GetCurSel(g_noteTabs));}return 0;}
     case WM_COMMAND:{int id=LOWORD(w),event=HIWORD(w);switch(id){
@@ -263,9 +284,9 @@ static LRESULT CALLBACK mainProc(HWND h,UINT m,WPARAM w,LPARAM l){
         case ID_TIMER_START:if(g_timerRunning){g_timerPausedMs=g_timerEnd>GetTickCount64()?g_timerEnd-GetTickCount64():0;g_timerRunning=false;SetWindowTextW(g_timerStartButton,L"Start timer");}else{if(!g_timerPausedMs&&!readTimerMinutes(g_timerPausedMs)){MessageBoxW(h,L"Enter a timer duration in minutes first.",L"KeyDesk",MB_OK|MB_ICONWARNING);return 0;}g_timerEnd=GetTickCount64()+g_timerPausedMs;g_timerRunning=true;SetWindowTextW(g_timerStartButton,L"Pause timer");}updateClock();return 0;
         case ID_TIMER_RESET:g_timerRunning=false;g_timerPausedMs=0;SetWindowTextW(g_timerStartButton,L"Start timer");updateClock();return 0;
         case ID_TIMER_SET:if(readTimerMinutes(g_timerPausedMs)){g_timerRunning=false;SetWindowTextW(g_timerStartButton,L"Start timer");updateClock();}else MessageBoxW(h,L"Enter a positive duration in minutes.",L"KeyDesk",MB_OK|MB_ICONWARNING);return 0;
-        case ID_KEY_TOGGLE:g_keysVisible=!g_keysVisible;ShowWindow(g_overlay,g_keysVisible?SW_SHOWNOACTIVATE:SW_HIDE);SetWindowTextW(GetDlgItem(h,ID_KEY_TOGGLE),g_keysVisible?L"Keystrokes: On":L"Keystrokes: Off");return 0;
-        case ID_THEME_TOGGLE:g_dark=!g_dark;setTheme();SetWindowTextW(GetDlgItem(h,ID_THEME_TOGGLE),g_dark?L"Switch to light theme":L"Switch to dark theme");return 0;
-        case ID_THEME_PICK:if(event==CBN_SELCHANGE){int selected=(int)SendMessageW((HWND)l,CB_GETCURSEL,0,0);if(selected>=0&&selected<(int)(sizeof(g_themes)/sizeof(g_themes[0]))){g_themeIndex=selected;setTheme();}}return 0;
+        case ID_KEY_TOGGLE:g_keysVisible=!g_keysVisible;ShowWindow(g_overlay,g_keysVisible?SW_SHOWNOACTIVATE:SW_HIDE);SetWindowTextW(GetDlgItem(h,ID_KEY_TOGGLE),g_keysVisible?L"Keystrokes: On":L"Keystrokes: Off");saveSettings();return 0;
+        case ID_THEME_TOGGLE:g_dark=!g_dark;setTheme();SetWindowTextW(GetDlgItem(h,ID_THEME_TOGGLE),g_dark?L"Switch to light theme":L"Switch to dark theme");saveSettings();return 0;
+        case ID_THEME_PICK:if(event==CBN_SELCHANGE){int selected=(int)SendMessageW((HWND)l,CB_GETCURSEL,0,0);if(selected>=0&&selected<(int)(sizeof(g_themes)/sizeof(g_themes[0]))){g_themeIndex=selected;setTheme();saveSettings();}}return 0;
         case ID_NOTE_NEW:newNote();return 0;case ID_NOTE_OPEN:openNote();return 0;case ID_NOTE_DELETE:deleteNote();return 0;
         case ID_NOTE_EDIT:if(event==EN_CHANGE)SetTimer(h,ID_NOTE_AUTOSAVE,450,nullptr);return 0;
         case ID_TODO_ADD:addTodo();return 0;case ID_TODO_EDIT:editTodo();return 0;case ID_TODO_DELETE:deleteTodo();return 0;
@@ -278,7 +299,7 @@ static LRESULT CALLBACK mainProc(HWND h,UINT m,WPARAM w,LPARAM l){
     case WM_CTLCOLOREDIT:case WM_CTLCOLORLISTBOX:{HDC dc=(HDC)w;SetTextColor(dc,textColor());SetBkColor(dc,surfaceColor());static HBRUSH brush=nullptr;if(brush)DeleteObject(brush);brush=CreateSolidBrush(surfaceColor());return (LRESULT)brush;}
     case WM_SIZE:if(w!=SIZE_MINIMIZED){layoutDashboard(h);InvalidateRect(h,nullptr,TRUE);}if(g_overlay){if(w==SIZE_MINIMIZED){if(g_keysVisible)ShowWindow(g_overlay,SW_SHOWNOACTIVATE);}else ShowWindow(g_overlay,SW_HIDE);}return 0;
     case WM_CLOSE:saveCurrentNote();saveTodos();if(g_keysVisible){ShowWindow(g_main,SW_HIDE);ShowWindow(g_overlay,SW_SHOWNOACTIVATE);}else ShowWindow(g_main,SW_MINIMIZE);return 0;
-    case WM_DESTROY:saveCurrentNote();saveTodos();saveOverlayPosition();if(g_keyboardHook)UnhookWindowsHookEx(g_keyboardHook);if(g_overlay)DestroyWindow(g_overlay);if(g_uiFont)DeleteObject(g_uiFont);if(g_overlayFont)DeleteObject(g_overlayFont);if(g_overlayClockFont)DeleteObject(g_overlayClockFont);if(g_bigFont)DeleteObject(g_bigFont);if(g_timerFont)DeleteObject(g_timerFont);if(g_headingFont)DeleteObject(g_headingFont);PostQuitMessage(0);return 0;
+    case WM_DESTROY:saveCurrentNote();saveTodos();saveOverlayPosition();saveSettings();if(g_keyboardHook)UnhookWindowsHookEx(g_keyboardHook);if(g_overlay)DestroyWindow(g_overlay);if(g_uiFont)DeleteObject(g_uiFont);if(g_overlayFont)DeleteObject(g_overlayFont);if(g_overlayClockFont)DeleteObject(g_overlayClockFont);if(g_bigFont)DeleteObject(g_bigFont);if(g_timerFont)DeleteObject(g_timerFont);if(g_headingFont)DeleteObject(g_headingFont);PostQuitMessage(0);return 0;
     }return DefWindowProcW(h,m,w,l);
 }
 int WINAPI wWinMain(HINSTANCE instance,HINSTANCE,LPWSTR,int){

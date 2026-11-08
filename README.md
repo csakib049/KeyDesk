@@ -54,4 +54,4 @@ g++ -std=c++17 -O2 -static -static-libgcc -static-libstdc++ -municode -mwindows 
 
 KeyDesk stores notes and to-do items in the `KeyDeskData` folder beside the app. Notes are saved in `KeyDeskData/Notes`, and tasks are saved in `KeyDeskData/ToDo/todos.txt`.
 
-The selected theme, alarm, timer, and stopwatch reset when you close KeyDesk.
+The selected accent theme, light/dark mode, and keystroke visibility are saved in `KeyDeskData/settings.ini` and restored when KeyDesk starts. Alarm, timer, and stopwatch state is session-only.
