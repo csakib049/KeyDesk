@@ -1,0 +1,11 @@
+﻿Domain: -->education domain , helth care domain , aggrecultureal domain ,
+
+
+keydesk more features:
+
+
+5.make the application launch on windoes startup
+6. when the alarm's time up it will show a notification 
+
+7.Password leakage problem:The hook displays every key in every window, including password fields. Hide or mask the display when the foreground control is a password show asterisk ***
+

@@ -1,2 +1,2 @@
-﻿0	make dinner
-0	do homework
+﻿0	make claude so it can make ATS friendly resume
+0	add new project to the resume
